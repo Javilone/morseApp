@@ -194,6 +194,25 @@ form {
 }
 
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 70%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+}
+
+.p-footer {
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    padding: 1%;
+}
+
 /* AJUSTES PANTALLA MOVIL */
 @media screen and (max-width:900px) {
 
@@ -255,6 +274,10 @@ form {
         border: none;
         border-radius: 10px;
         border-top: 10px solid var(--colorWeight3);
+    }
+
+    .p-footer {
+        color: var(--colorWeight1);
     }
 
 }
